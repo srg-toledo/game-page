@@ -1,0 +1,46 @@
+:root{
+    --gradiente: 0deg, #ffd968, #fac422;
+    --bottom-color-: #57B8FF;
+    ---base-color: #141820;
+    --title-color-: #FFF;
+    --color-1: #fac422;
+    --color-2: #ffd968;
+    --color-3: #222730;
+    --color-4: #555;
+    --color-5: #999;
+    --color-6: #dfdfdf;
+}
+
+header .logo {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: transparent;
+    padding: 20px 2%;
+    display: flex;
+    align-items: center;
+}
+
+.item-logo {
+    padding: 5px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: var(--bottom-color-);
+}
+
+.h1-cor {
+    color: var(--title-color-);
+}   
+
+header .menu-cabecalho ul {
+    list-style: none;
+}
+
+header .menu-cabecalho ul li {
+    /* position: displa; */
+    left: 80%;
+    display: inline;
+    align-items: center;
+    padding: 10px;
+}
