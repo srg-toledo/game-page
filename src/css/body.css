@@ -1,0 +1,19 @@
+:root{
+    --gradiente: 0deg, #ffd968, #fac422;
+    --bottom-color-: #57B8FF;
+    ---base-color: #141820;
+    --title-color-: #FFF;
+    --color-1: #fac422;
+    --color-2: #ffd968;
+    --color-3: #222730;
+    --color-4: #555;
+    --color-5: #999;
+    --color-6: #dfdfdf;
+}
+
+
+body{
+    background-color: var(---base-color);
+    font-family: Orbitron, sans-serif;
+    font-size: 14px;
+}
