@@ -17,3 +17,86 @@ body{
     font-family: Orbitron, sans-serif;
     font-size: 14px;
 }
+
+
+.inicio{
+    position: relative;
+    padding-top: 290px;
+    padding-bottom: 250px;
+    background-image: url(https://uploads-ssl.webflow.com/613dd271ff647956928ac4f9/613eef4d7af83a74d428f7f1_Banner-bg.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo-mini{
+    color: var(--bottom-color-);
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+}
+.titulo-principal{
+    line-height: 86px;
+}
+
+h1 {
+    color: var(--title-color-);
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.parag-inicio{
+    color: var(--color-5);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.prim-active-bottom{
+    background-color: var(--bottom-color-);
+    color: var(--title-color-);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.c-bottom{
+    text-decoration: none;
+}
+
+.work-bottom{
+    color: var(--title-color-);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700px;
+    text-decoration: underline;
+}
+
+.container-right{
+    background-color: var(--bottom-color-);
+    /* transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); */
+
+    opacity: 1;
+    transform-style: preserve-3d;
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    width: 44%;
+    height: 100%;
+    max-width: 44%;
+    min-height: 100%;
+}
+
+.hero-img img{
+    position: absolute;
+    top: 0;
+    right: 270px;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    width: 660px;
+    height: 518px;
+    
+}
