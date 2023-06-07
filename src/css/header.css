@@ -11,36 +11,104 @@
     --color-6: #dfdfdf;
 }
 
-header .logo {
+
+header {
+    height: 150px;
     position: fixed;
-    top: 0; left: 0; right: 0;
-    background: transparent;
-    padding: 20px 2%;
-    display: flex;
-    align-items: center;
+    top: 0; left: 0; right: 0; bottom: 0;
+    padding: 20px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
 }
+
+
+header .navbar ul li {
+    position: relative;
+    float: left;
+    left: 30%;
+    padding: 10px ;
+}
+
+.container-menu{
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar ul li a {
+    font-size: 15px;
+    padding: 20px;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    color: var(--color-1);
+}
+
+
+.navbar ul li a {
+    color: var(--color-6);
+}
+
+
+
+.carrinho {
+    padding: 10px;
+    position: relative;
+    bottom: 37px;
+    left: 40%;
+    cursor: pointer;
+}
+
+.contatos {
+    position: relative;
+    bottom: 57px;
+    left: 45%;
+    color: var(--title-color-);
+    padding: 15px 30px;
+    border: 1px solid;
+}
+
+
+.contatos:hover{
+    background-color: var(--color-1);
+}
+
 
 .item-logo {
-    padding: 5px;
+    position: relative;
+    cursor: pointer;
+    top: 45px;
 }
 
-header h1 {
-    font-size: 24px;
-    color: var(--bottom-color-);
+h1 {
+    position: relative;
+    left: 45px;
+    top: 7px;
+    
 }
 
 .h1-cor {
-    color: var(--title-color-);
-}   
-
-header .menu-cabecalho ul {
-    list-style: none;
+    color: var(--color-6);
 }
 
-header .menu-cabecalho ul li {
-    /* position: displa; */
-    left: 80%;
-    display: inline;
-    align-items: center;
-    padding: 10px;
+.links {
+    position: relative;
+    bottom: 50px;
 }
+
+
+.dropdown-menu {
+    position: absolute;
+    box-shadow: 0 0 2px var(--color-3);
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+
